@@ -1,0 +1,1 @@
+(function(){dust.register("chat",body_0);function body_0(chk,ctx){return chk.write("<button data-social='github'><i class='icon-github'></i></button><ul class='messages'></ul><textarea></textarea>");}return body_0;})();

@@ -1,0 +1,42 @@
+.chat {
+  color: #eee;
+  font-size: 12px;
+  position: fixed;
+  bottom: 30px;
+  left: 50px;
+  border: 1px solid rgba(55,55,55,0.8);
+  z-index: 100;
+  min-width: 275px;
+  background: rgba(6, 38, 111, 0.1);
+  .size(30%, 165px);
+  .border-radius(0 0 5px 5px);
+
+  [data-social] {
+    font-size: 25px;
+    padding: 0 6px;
+    position: absolute;
+    left: -40px;
+  }
+
+  .messages {
+    padding: 10px;
+    overflow-y: scroll;
+    .size(100%, 135px);
+
+    li {
+      time { color: @color-blue1; margin-right: 5px; }
+      .user { color: @color-yellow1; margin-right: 10px; }
+      .event { color: @color-red1; margin-right: 10px; }
+    }
+  }
+
+  textarea {
+    color: #eee;
+    border: none;
+    height: 30px;
+    padding: 5px 10px;
+    background: rgba(0,0,0,0.5);
+    .size(100%, 30px);
+    .border-radius(0 0 10px 10px);
+  }
+}

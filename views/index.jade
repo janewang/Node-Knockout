@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  #main(role='main')
+  iframe#nko(src='http://nodeknockout.com/iframe/the-xx', frameborder='0', scrolling='no', allowtransparency='true', width='115', height='25')
+  nav
+    ul
+      li: a#about(href='/') about
+      li: a#explore(href='/') explore
+      
+  .about
+    h1 Hello, Welcome to The XX
+      p You are currently assigned a home planet with surface attributes and changing planetary status. You can zoom out and drag around to explore nearby planets.
+      p The universe is multiplayer. Each player receives a planet! So invite your friends, hang out in chat, and watch out for emissaries and planetary status updates from - The XX.
+      p
+        | By 
+        a(href='http://www.github.com/janewang', target='_blank') jw
+        |  and 
+        a(href='http://www.github.com/tivoli', target='_blank') tivs
+        |  for 
+        a(href='http://nodeknockout.com', target='_blank') nko3
+  

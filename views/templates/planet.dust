@@ -1,0 +1,10 @@
+<div class='planetEnv'>
+  <h3 class='name'>{name}</h3>
+  <ul class='planetDesc'>
+    <li>Surface: {type}</li>
+    <li class='percent'>Oxygen: {oxygen}</li>
+    <li class='percent'>Water: {water}</li>
+    <li class='percent'>Land: {land}</li>
+    <li>Status: {status}</li>
+  </ul>
+</div>

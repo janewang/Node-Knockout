@@ -1,0 +1,39 @@
+{
+  "name": "nko3-the-xx",
+  "version": "0.0.2",
+  "private": true,
+  "description": "The XX",
+  "main": "server.coffee",
+  "scripts": {
+    "start": "coffee boot",
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nko3/the-xx.git"
+  },
+  "contributors": [
+    {"name": "Jane Wang", "email": "janelwang2008@gmail.com"},
+    {"name": "Jonathan 'Tivs' Rainey", "email": "tivoli@nurfed.com"}
+  ],
+  "dependencies": {
+    "express":        "*",
+    "jade":           "*",
+    "lodash":         "*",
+    "connect-redis":  "*",
+    "connect-assets": "*",
+    "coffee-script":  "*",
+    "less":           "*",
+    "socket.io":      "*",
+    "redis":          "*",
+    "mongodb":        "1.1.x",
+    "async":          "*",
+    "request":        "*",
+    "cookie":         "*",
+    "fleck":          "*"
+  },
+  "engines": {
+    "node": "0.8.x"
+  },
+  "subdomain": "the-xx.nko3"
+}

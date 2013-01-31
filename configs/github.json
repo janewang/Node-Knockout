@@ -1,0 +1,7 @@
+{
+  "defaults": {
+    "app_id": "ea6585e17c43d123742b",
+    "app_secret": "3014abf910a1f3e21a0e72ce3aee14ee3a2a2775",
+    "callback": "http://the-xx.local:8000/oauth/github/callback"
+  }
+}

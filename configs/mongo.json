@@ -1,0 +1,15 @@
+{
+  "defaults": {
+    "host": "localhost",
+    "port": 27017,
+    "db": "the_xx"
+  },
+  "test": {
+    "db": "the_xx_test"
+  },
+  "production": {
+    "host": "mongodb://nodejitsu_nko3-the-xx:e4vq5sv3nhr012php27p9sbnfh@ds039277.mongolab.com:39277/nodejitsu_nko3-the-xx_nodejitsudb9357218034",
+    "port": "",
+    "db": "thexx_mongo"
+  }
+}

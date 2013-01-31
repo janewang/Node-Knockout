@@ -1,0 +1,10 @@
+doctype 5
+html
+  head
+    title= title
+    != css('style')
+  body
+    block content
+  script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js')
+  script(src='/socket.io/socket.io.js')
+  != js('site')

@@ -1,0 +1,14 @@
+{
+  "defaults": {
+    "host": "localhost",
+    "port": 6379,
+    "db": 0
+  },
+  "test": {
+    "db": 1
+  },
+  "production": {
+    "host": "nodejitsudb4065376762.redis.irstack.com",
+    "port": 6379
+  }
+}
